@@ -1,0 +1,33 @@
+{
+    "name": "luis/phpapp",
+    "autoload": {
+        "psr-4": {
+            "\\Controllers\\": "Core/Controllers",
+            "\\Entities\\": "Core/Entities",
+            "\\Repository\\": "Core/Repository",
+            "\\Services\\": "Core/Services",
+            "\\Interfaces\\": "Core/Interfaces",
+            "\\Helpers\\": "Core/Helpers",
+            "\\Router\\": "Core/Router",
+            "\\Exceptions\\": "Core/Exceptions",
+            "\\Middlware\\": "Core/Middleware",
+            "\\Config\\": "Config",
+            "\\Data\\": "Data",
+            "\\Database\\": "Database"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Lopez",
+            "email": "luis.dev.master@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4",
+        "twig/twig": "^3.5",
+        "php-webdriver/webdriver": "^1.14"
+    }
+}
