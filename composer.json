@@ -2,18 +2,7 @@
     "name": "luis/phpapp",
     "autoload": {
         "psr-4": {
-            "\\Controllers\\": "Core/Controllers",
-            "\\Entities\\": "Core/Entities",
-            "\\Repository\\": "Core/Repository",
-            "\\Services\\": "Core/Services",
-            "\\Interfaces\\": "Core/Interfaces",
-            "\\Helpers\\": "Core/Helpers",
-            "\\Router\\": "Core/Router",
-            "\\Exceptions\\": "Core/Exceptions",
-            "\\Middlware\\": "Core/Middleware",
-            "\\Config\\": "Config",
-            "\\Data\\": "Data",
-            "\\Database\\": "Database"
+            "App\\": "App"
         }
     },
     "authors": [
