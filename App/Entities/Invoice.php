@@ -2,7 +2,7 @@
 
 namespace App\Entities;
 
-class Employee
+class Invoice
 {
 
 }

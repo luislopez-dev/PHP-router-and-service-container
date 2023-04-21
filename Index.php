@@ -5,6 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use App\Router\Router;
 use App\Exceptions\RouteNotFoundException;
 use App\Container;
+use App\Controllers\HomeController;
 
 /**
  * Application entry point
@@ -26,7 +27,13 @@ final class Index
 }
 
 $container = new Container();
+
 $router    = new Router($container);
+
+$router->registerRoutesFromControllerAttributes([
+    HomeController::class
+]);
+
 (new Index(
     $router,
     ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']]
