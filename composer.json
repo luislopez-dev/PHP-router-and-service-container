@@ -17,7 +17,7 @@
         "doctrine/dbal": "^3.2",
         "symfony/yaml": "^5.4",
         "symfony/cache": "^5.4",
-        "php-webdriver/webdriver": "^1.14",
+        "php-webdriver/webdriver": "^1.14",.
         "symfony/asset": "^6.0",
         "twig/twig": "^3.5"
     }
